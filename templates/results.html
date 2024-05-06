@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+
+    </head>
+    <body>
+        <h3>Search results</h3>
+        <br>
+        <div class="results">
+            {{line_1}}
+            <br>
+            {{line_2}}
+            <br>
+            {{line_3}}
+            <br>
+            {{line_4}}
+            <br>
+            {{line_5}}
+            {{respond}}
+        </div>
+        <br>
+        <button type="button" onclick="history.back()" id="back">GO BACK</button>
+    </body>
+</html>

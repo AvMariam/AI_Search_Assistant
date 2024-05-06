@@ -1,0 +1,94 @@
+/*Background image*/
+body {
+    background-image: url(/static/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: transparent;
+    background-filter: blur(10px);
+    text-align: center;
+}
+
+/*AI ASSISTANT*/
+.title {
+    color: white;
+    font-size: 5em;
+    margin: 400px 0px 0px 0px;
+    font-family: Apple Chancery, cursive;
+}
+
+/*Text under the title*/
+p {
+    color: white;
+    font-family: Shanti;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0px;
+
+}
+
+/*Search box*/
+input {
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    margin: 1px 0px 0px 5px;
+    border-radius: 10px;
+    border-color: white;
+    font: Shanti;
+    text-align: left;
+    font-size: 1.2em;
+    color: white;
+}
+
+/*Search button*/
+#search {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+/*Search button during action*/
+#search:hover {
+    background-color: silver;
+    cursor: pointer;
+}
+
+/*title in results.html*/
+h3 {
+    font-family: Shanti;
+    color: white;
+    font-size: 2em;
+    margin: 400px 0px 0px 0px;
+}
+
+/*results in results.html*/
+.results {
+    color: white;
+    font-family: Shanti;
+    font-size: 1.2em;
+    border: black;
+    margin: 1px 0px 0px 0px;
+}
+
+/*GO BACK button in results.html*/
+#back {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+/*GO BACK during action in results.html*/
+#back:hover {
+    background-color: silver;
+    cursor: pointer;
+}
