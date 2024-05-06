@@ -22,11 +22,9 @@ def search():
             # Handling not url search error
             try:
                 requests.get(url)
-                print(requests.get(url).status_code)
             except:
                 return render_template("results.html", respond="The url is invalid.")
             new_info = collect_data(url, [])
-            print(new_info)
             # Handling locked website error
             if type(new_info) is list:
                 new_info = new_info[0]
